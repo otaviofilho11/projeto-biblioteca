@@ -5,8 +5,6 @@ app.use(express.json());
 
 //rotas
 const livroRoutes = require('./routes/livroRoutes');
-
-
 app.use(livroRoutes);
 
 app.listen(PORT, () => {
